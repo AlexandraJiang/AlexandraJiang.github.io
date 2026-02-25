@@ -8,13 +8,13 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* UT Longhorn custom icon (works even if HTML is escaped) */
-.author__urls .ut-longhorn::before {
+/* UT Longhorn custom icon */
+.author__urls i.ut-longhorn::before {
   content: "";
   display: inline-block;
   width: 1.2em;
   height: 1.2em;
   margin-right: 0.5em;
   vertical-align: -0.2em;
-  background: url("/assets/images/ut-longhorn.svg") no-repeat center / contain;
+  background: url("../images/texas-longhorns.svg") no-repeat center / contain;
 }
