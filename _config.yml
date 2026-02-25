@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Xinya Jiang" #左侧个人资料
   avatar           : "/assets/images/pw.jpeg"
-  bio              : "PhD student at UT\n\nEmail: xinya.jiang@utexas.edu"
+  bio              : "Ph.D. student \n\nSchool of Journalism and Media \n\nThe University of Texas at Austin \n\nEmail: xinya.jiang@utexas.edu"
   location         : "Austin, TX, USA"
   email            :
   links:
@@ -128,9 +128,16 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "Google Scholar"
+      icon: "fab fa-brands fa-google-scholar"
+      url: "https://scholar.google.com/citations?user=K6SeBb0AAAAJ&hl=en"
     - label: "Linkedin"
       icon: "fab fa-brands fa-linkedin"
-      # url: "https://www.linkedin.com/in/xinya-jiang-9a68841a1/"
+      url: "https://www.linkedin.com/in/xinya-jiang-9a68841a1/"
+    - label: "ORCID"
+      icon: "fab fa-brands fa-orcid"
+      url: "https://orcid.org/0009-0008-6360-7527"
+  
 
 # Site Footer
 footer:
