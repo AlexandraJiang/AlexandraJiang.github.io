@@ -1,4 +1,4 @@
-Hi! My name is Xinya Jiang (姜新雅). I am a second-year PhD student in the School of Journalism and Media at The University of Texas at Austin. I obtained my B.A. in Journalism and M.A. in Communication from Nanjing University.
+Hi! My name is Xinya Jiang (姜新雅). I am a second-year PhD student in the [School of Journalism and Media](https://journalism.utexas.edu/) at [The University of Texas at Austin](https://www.utexas.edu). I obtained my B.A. in Journalism and M.A. in Communication from [Nanjing University](https://www.nju.edu.cn/en/).
 
 I am interested in political communication and computational social science. Methodologically, I am interested in computational and quantitative methods. In recent research, I am also exploring causal inference.
 
