@@ -131,6 +131,9 @@ author:
     - label: "Google Scholar"
       icon: "ai ai-google-scholar-square"
       url: "https://scholar.google.com/citations?user=K6SeBb0AAAAJ&hl=en"
+    - label: "UT Profile"
+      icon: '<img src="/assets/images/texas-longhorns.svg" class="custom-icon">'
+      url: "https://journalism.utexas.edu/graduate-profiles/xinya-jiang"
     - label: "Linkedin"
       icon: "fab fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/xinya-jiang-9a68841a1/"
