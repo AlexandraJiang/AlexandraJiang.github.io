@@ -7,3 +7,30 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Make left author sidebar and headshot larger */
+.sidebar {
+  @include breakpoint($large) {
+    width: 260px;
+  }
+
+  @include breakpoint($x-large) {
+    width: 320px;
+  }
+}
+
+.page {
+  @include breakpoint($large) {
+    width: calc(100% - 300px);
+    padding-right: 300px;
+  }
+
+  @include breakpoint($x-large) {
+    width: calc(100% - 360px);
+    padding-right: 360px;
+  }
+}
+
+.author__avatar img {
+  max-width: 240px;
+}
