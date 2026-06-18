@@ -106,7 +106,11 @@ analytics:
 author:
   name             : "Xinya Jiang" #左侧个人资料
   avatar           : "/assets/images/IMG_7203.JPG"
-  bio              : "Ph.D. student \n\nSchool of Journalism and Media \n\nThe University of Texas at Austin \n\nEmail: xinya.jiang@utexas.edu"
+  bio              : "\
+  Ph.D. student \ \n
+  School of Journalism and Media \ \n
+  The University of Texas at Austin \ \n
+  Email: xinya.jiang@utexas.edu"
   location         : "Austin, TX, USA"
   email            :
   links:
