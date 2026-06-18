@@ -8,29 +8,34 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* Make left author sidebar and headshot larger */
+/* Author sidebar: close to yingdanlu.com proportions */
 .sidebar {
   @include breakpoint($large) {
-    width: 260px;
+    opacity: 1;
   }
 
-  @include breakpoint($x-large) {
-    width: 320px;
+  &.sticky {
+    overflow-y: visible;
+    max-height: none;
+    height: auto;
   }
 }
 
-.page {
-  @include breakpoint($large) {
-    width: calc(100% - 300px);
-    padding-right: 300px;
-  }
+.author__avatar {
+  width: 90px;
+  height: 100px;
 
-  @include breakpoint($x-large) {
-    width: calc(100% - 360px);
-    padding-right: 360px;
+  @include breakpoint($large) {
+    width: auto;
+    height: auto;
   }
 }
 
 .author__avatar img {
-  max-width: 240px;
+  max-width: 400px;
+}
+
+.author__bio {
+  margin: 0;
+  font-size: 1em;
 }
